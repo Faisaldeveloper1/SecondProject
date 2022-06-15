@@ -18,6 +18,24 @@
 
     <link rel="stylesheet" href="contactus.css">
     <link rel="icon" href="images/logo-EITS.png" type="image/icon type">
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+        
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+    </style>
 
 </head>
 
@@ -104,6 +122,8 @@
                     </li>
 
                 </ul>
+                <button onclick="darkMode()" id="dark">Darkmode</button>
+                <button onclick="lightMode()" id="light">LightMode</button>
                 <a class="button btn-primary text-center" href="login.html" id="login-btn">Login</a>
                 <!-- <button type="button" class="btn btn-info btn-sm" id="login-btn" style="color:black;font-weight: bold;">Login</button> -->
             </div>
@@ -167,11 +187,25 @@
 
             </form>
 
-
+            <button class="button btn-danger">Submit</button>
 
         </div>
-        <div class="box2">
+        <div lass="box2">
             <h2>Reach Us</h2>
+
+            <div class="gmap_canvas"><iframe width="500" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=begusarai%20bihar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://putlocker-is.org"></a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 600px;
+                    }
+                </style><a href="https://www.embedgooglemap.net">google map html</a>
+
+            </div>
+
 
         </div>
 
@@ -250,6 +284,21 @@
 </body>
 
 </html>
+<script>
+    function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+    }
+
+    function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+    }
+</script>
 
 
 </body>

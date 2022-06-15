@@ -18,7 +18,24 @@
 
     <link rel="stylesheet" href="gallery.css">
     <link rel="icon" href="images/logo-EITS.png" type="image/icon type">
-
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+        
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -104,6 +121,8 @@
                     </li>
 
                 </ul>
+                <button onclick="darkMode()" id="dark">Darkmode</button>
+                <button onclick="lightMode()" id="light">LightMode</button>
                 <a class="button btn-primary text-center" href="login.html" id="login-btn">Login</a>
                 <!-- <button type="button" class="btn btn-info btn-sm" id="login-btn" style="color:black;font-weight: bold;">Login</button> -->
             </div>
@@ -287,6 +306,24 @@
     <div class="foot">
         <h4 class="lead text-dark text-bold text-center">&copy; 2022 eHubITsolution</h4>
     </div>
+
+    <script>
+        function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+
+        function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+    </script>
+
+
 
 
 </body>
