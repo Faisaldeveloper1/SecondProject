@@ -21,6 +21,46 @@
 
 /*advertisment and search bar*/
 
+#contactform {
+    border: 1px solid red;
+    height: auto;
+    width: 100%;
+    display: block;
+    background-color: rgb(178, 180, 206);
+}
+
+.box1 {
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 1px solid red;
+    height: 600px;
+    background-color: rgb(178, 180, 206);
+}
+
+.formlabel {
+    color: rgb(10, 8, 8);
+}
+
+.box2 {
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid red;
+    height: 600px;
+}
+
+#radiobtn {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.radiolabel {
+    margin-left: 20px;
+}
+
 #projectname {
     font-size: 40px;
     font-family: 'Macondo', cursive;
