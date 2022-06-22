@@ -82,18 +82,31 @@
         .offerimg {
             float: left;
         }
-        
-        .close {
+        /* .close {
             position: absolute;
-            right: 199px;
+            right: 75px;
             z-index: 99999999;
-            top: 66px;
+            top: 68px;
             border-radius: 10px;
             background-color: white;
             color: red;
             height: 20px;
             width: 20px;
             font-size: 20px;
+            cursor: pointer;
+        } */
+        
+        .off {
+            position: fixed;
+            right: 425px;
+            z-index: 99999999;
+            top: 120px;
+            border-radius: 14px;
+            /* background-color: white; */
+            color: red;
+            height: 20px;
+            width: 20px;
+            font-size: 35px;
             cursor: pointer;
         }
     </style>
@@ -115,9 +128,9 @@
         </div>
 
 
-        <div class="close">
+        <div class="">
             <button class="close" onclick="closeBanner()">
-                    &times;
+                   <span class="off">&times;</span> 
                 </button>
         </div>
     </div>
