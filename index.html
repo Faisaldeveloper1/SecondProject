@@ -121,7 +121,7 @@
                 <img src="images/realtime.jpeg" width="250px" height="190px">
             </div>
             <div class="textcontent">
-                <h2>Summer offer 25% Off <br>on all RealTime <i class="bi bi-telephone-fill"></i></h2>
+                <h2>Summer offer 25% Off <br>at all RealTime <i class="bi bi-telephone-fill"></i></h2>
                 <p>Hurry Up<br>Offer Valid till 30<sup>th</sup> June 2022.</p>
             </div>
 
@@ -494,6 +494,7 @@
         <h4 class="lead text-dark text-bold text-center">&copy; 2022 eHubITsolution</h4>
     </div>
     <script>
+        //darkmode and light mode-------------------------------------        
         function darkMode() {
             var element = document.body;
             var content = document.getElementById("DarkModetext");
@@ -510,6 +511,7 @@
     </script>
 
     <script>
+        //geolocation-------------------------
         let x = document.getElementById('city');
         let y = document.getElementById('weather');
 
@@ -520,6 +522,23 @@
                 x.innerText = "Geo Not Supported"
             }
         }
+
+        //api calling call json-------------------------------
+        fetch('./data.json')
+            .then(response => response.json())
+            .then(data => {
+                const productNode = document.getElementsByClassName("gridheading");
+                if (Array.isArray(data)) {
+                    data.map((item, index) => {
+                        if (!productNode[index]) return;
+                        productNode[index].childNodes[1].innerHTML = item.name
+                    })
+                }
+            })
+
+        .catch(error => console.log(error));
+        //api json call---end-----------------
+
 
         function showPosition(data) {
             console.log(data)

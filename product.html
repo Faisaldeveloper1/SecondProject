@@ -409,6 +409,20 @@
             element.className = "light-mode";
 
         }
+
+        fetch('./data.json')
+            .then(response => response.json())
+            .then(data => {
+                const productNode = document.getElementsByClassName("gridheading");
+                if (Array.isArray(data)) {
+                    data.map((item, index) => {
+                        if (!productNode[index]) return;
+                        productNode[index].childNodes[1].innerHTML = item.name
+                    })
+                }
+            })
+
+        .catch(error => console.log(error));
     </script>
 </body>
 
