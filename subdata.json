@@ -1,0 +1,61 @@
+[{
+        "id": 0,
+        "name": "dell 3542 laptop",
+        "config": "i3/6th/gen/15.6\"/win 10"
+    },
+    {
+        "id": 1,
+        "name": "Dell Latitude 3410",
+        "config": "i7/2nd Gen./4GB/500GB/Dos"
+    },
+    {
+        "id": 2,
+        "name": "Dell Vostro 1015",
+        "config": "Dual Core/2GB/320GB/Dos"
+    },
+    {
+        "id": 3,
+        "name": "Hp TowerPC",
+        "config": "i3/4th Gen/18.5 Inch. LCD/win 10"
+    },
+    {
+        "id": 4,
+        "name": "Lenovo G570",
+        "config": "i5/4th gen/1TB/Dos"
+    },
+    {
+        "id": 5,
+        "name": "Hp presario 620",
+        "config": "i3/3rd gen/15.6 Inch. LED/Dos"
+    },
+    {
+        "id": 6,
+        "name": "Cpplus 8Ch. set",
+        "config": "8Ch. Dvr/4DC/500GB"
+    },
+    {
+        "id": 7,
+        "name": "Dell Monitor",
+        "config": "Dell Monitor(VGA/HDMI)"
+    },
+    {
+        "id": 8,
+        "name": "WD 500GB HDD",
+        "config": "WD 500gb hDD for DT"
+    },
+    {
+        "id": 9,
+        "name": "Acer  Monitor",
+        "config": "acer Monitor(VGA/HDMI)"
+    },
+    {
+        "id": 10,
+        "name": "Canon Pixma",
+        "config": "inkjet Color Printer"
+    },
+    {
+        "id": 11,
+        "name": "Hp Laserjet Printer",
+        "config": "all-in-one printer"
+    }
+]
