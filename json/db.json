@@ -1,0 +1,25 @@
+{
+  "Hardware_type": [
+    {
+      "main_id": 1,
+      "hardware_name": "Laptop"
+    },
+    {
+      "main_id": 2,
+      "hardware_name": "Hardware"
+    },
+    {
+      "main_id": 3,
+      "hardware_name": "printer"
+    },
+    {
+      "main_id": 4,
+      "hardware_name": "CCTV"
+    },
+    {
+      "main_id": 5,
+      "hardware_name": "storage"
+    }
+  ]
+ 
+}

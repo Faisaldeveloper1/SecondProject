@@ -1,0 +1,126 @@
+{
+    "event": [
+        {
+          "id": 0,
+          "hardware_name": "Laptop",
+          "company": "Dell",
+          "main_id": 0,
+          "name": "dell 3542 laptop",
+          "Price": 14500,
+          "image": "https://i.ibb.co/sWJXbMv/dell-latitude-3410.jpg",
+          "config": "i3/6th/gen/15.6\"/win 10"
+        },
+        {
+          "id": 1,
+          "hardware_name": "Laptop",
+          "company": "Dell",
+          "main_id": 0,
+          "name": "Dell Latitude 3410",
+          "price": 15500,
+          "image": "https://i.ibb.co/fDGTqPY/dell-latitude-3410.jpg",
+          "config": "i7/2nd Gen./4GB/500GB/Dos"
+        },
+        {
+          "id": 2,
+          "hardware_name": "Laptop",
+          "company": "Dell",
+          "main_id": 0,
+          "name": "Dell Vostro 1015",
+          "price": 10500,
+          "image": "https://i.ibb.co/j4Ws353/dell-vostro.jpg",
+          "config": "Dual Core/2GB/320GB/Dos"
+        },
+        {
+          "id": 3,
+          "hardware_name": "Laptop",
+          "company": "Hp",
+          "main_id": 0,
+          "name": "Hp TowerPC",
+          "price": 13500,
+          "image": "https://i.ibb.co/4S0gYbT/desk1.jpg",
+          "config": "i3/4th Gen/18.5 Inch. LCD/win 10"
+        },
+        {
+          "id": 4,
+          "hardware_name": "Laptop",
+          "company": "lenovo",
+          "main_id": 0,
+          "name": "Lenovo G570",
+          "price": 13500,
+          "image": "https://i.ibb.co/BVHg9HT/g570.jpg",
+          "config": "i5/4th gen/1TB/Dos"
+        },
+        {
+          "id": 5,
+          "hardware_name": "Laptop",
+          "company": "Hp",
+          "main_id": 0,
+          "name": "Hp 620",
+          "price": 11500,
+          "image": "https://i.ibb.co/hHrz9YJ/hp-620.jpg",
+          "config": "i3/3rd gen/15.6 Inch. LED/Dos"
+        },
+        {
+          "id": 6,
+          "hardware_name": "CCTV",
+          "company": "Cpplus",
+          "main_id": 4,
+          "name": "Cpplus 8Ch. set",
+          "price": 4500,
+          "image": "https://i.ibb.co/LRSVZx4/cctv.jpg",
+          "config": "8Ch. Dvr/4DC/500GB"
+        },
+        {
+          "id": 7,
+          "hardware_name": "Hardware",
+          "company": "Dell",
+          "main_id": 2,
+          "name": "Dell Monitor",
+          "price": 6500,
+          "image": "https://i.ibb.co/v10wKRH/dell.jpg",
+          "config": "Dell Monitor(VGA/HDMI)"
+        },
+        {
+          "id": 8,
+          "hardware_name": "storage",
+          "company": "WD",
+          "main_id": 5,
+          "name": "WD 500GB HDD",
+          "price": 1500,
+          "image": "https://i.ibb.co/NNz3Z9d/hdd50.jpg",
+          "config": "WD 500gb hDD for DT"
+        },
+        {
+          "id": 9,
+          "hardware_name": "Hardware",
+          "company": "Acer",
+          "main_id": 2,
+          "name": "Acer  Monitor",
+          "price": 3500,
+          "image": "https://i.ibb.co/Jx0DCjY/acermonitor",
+          "config": "acer Monitor(VGA/HDMI)"
+        },
+        {
+          "id": 10,
+          "hardware_name": "printer",
+          "company": "Canon",
+          "main_id": 3,
+          "name": "Canon Pixma",
+          "price": 12500,
+          "image": "https://i.ibb.co/BCJhRRw/pri1.jpg",
+          "config": "inkjet Color Printer"
+        },
+        {
+          "id": 11,
+          "hardware_name": "printer",
+          "company": "Hp",
+          "main_id": 3,
+          "name": "Hp Laserjet Printer",
+          "price": 18500,
+          "image": "https://i.ibb.co/fDnnrts/pri2.jpg",
+          "config": "all-in-one printer"
+        }
+      ]
+
+}
+

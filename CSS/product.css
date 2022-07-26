@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans:wght@200&family=Lobster&family=Macondo&family=Pacifico&family=Prompt:ital,wght@0,300;1,400&family=Smooch&family=Tapestry&display=swap');
+.navbar-brand {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: wheat;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black !important;
+}
+
+#Dark {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+#light {
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(249, 255, 255);
+}
+
+#logo {
+    height: 30px
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 18px;
+}
+
+
+/*advertisment and search bar*/
+
+#projectname {
+    font-size: 40px;
+    font-family: 'Macondo', cursive;
+    /* box-shadow: -1px 13px 49px rebeccapurple; */
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+/*carousel bar*/
+
+.text-info {
+    font-size: 40px;
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.details {
+    font-size: 25px;
+    border: 1px solid white !important;
+    background-color: rgb(236, 118, 118);
+    color: rgb(16, 0, 236);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#login-btn {
+    height: 30px;
+    width: 80px;
+}
+
+.d-block {
+    height: 65vh;
+    width: 100%;
+}
+
+.row {
+    /* border: 1px solid black; */
+}
+
+.col-3 {
+    /* border: 1px solid green; */
+    margin-left: 8%;
+}
+
+.col-7 {
+    margin-left: 80%;
+}
+
+.bi {
+    font-size: 20px;
+}
+
+.bi {
+    cursor: pointer;
+}
+
+#login-btn {
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+
+/* item and price list */
+
+#itemlist {
+    margin: auto;
+    height: 1300px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+#adheading {
+    float: left;
+    margin-top: 20px;
+}
+
+#listpart {
+    /* border: 1px solid black; */
+    width: 20%;
+    margin-top: -45px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    height: 360px;
+    box-shadow: -13px 21px 22px olive;
+    border-radius: 12px;
+}
+
+.itemimg {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gridheading {
+    height: 200px;
+    width: 100%;
+}
+
+#cart {
+    margin-left: 30px;
+    margin-top: -13px;
+    font-size: 14px;
+}
+
+#order {
+    margin-top: -36px;
+    margin-left: 135px;
+    font-size: 14px;
+}
+
+.gridheading>h2 {
+    font-size: 25px;
+    text-decoration: underline;
+    color: blue !important;
+}
+
+.rupees {
+    font-size: 25px;
+}
+
+.text-center {
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+#footer {
+    border-top: 1px solid red;
+    height: 200px;
+    width: 98%;
+    margin: auto;
+    background: #a7e1f3;
+}
+
+#footercol {
+    /* border: 1px solid rgb(10, 1, 1); */
+    width: 20%;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+.social {
+    text-align: left;
+    color: rgb(4, 1, 17);
+    margin-top: 15px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.account {
+    text-decoration: none !important;
+    display: flex;
+    color: rgba(10, 1, 187, 10) !important;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#msg {
+    font-size: 40px;
+    margin: 10px;
+    padding: 0px;
+    color: blue;
+}
+
+.footlast {
+    margin-auto;
+    height: 30px;
+    width: 300px;
+    border: 1px solid red;
+}
+.area {
+    height: 25px;
+    width: 25px;
+    line-height: 1px;
+}
+.city {
+    line-height: 1.5;
+    color: red !important;
+}
+
+.list-unstyled{
+    text-align:start;
+    text-decoration: none;  
+          
+ }
+ .list-unstyled li a{
+    text-decoration: none;
+ }
+
+ .text-uppercase {
+    text-align:start;
+    text-decoration: none; 
+    color:rgb(54, 54, 122) !important;   
+ }
+ .location{
+    text-align: start;
+ }
